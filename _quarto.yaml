@@ -4,6 +4,13 @@ project:
   preview: 
     browser: false
     port: 4004
+  render:
+    - "*.ipynb"
+    - "*.qmd"
+    - "中心科学/*"
+    - "!quarto-*/**"
+    - "!*.tar.gz"
+    - "!quarto-bin/**"
 
 website:
   title: "化学笔记"
@@ -33,13 +40,6 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-  
-project: 
-  type: website
-  output-dir: _site
-  preview: 
-    browser: false
-    port: 4004
 
 title: "化学笔记"
 author: "松原苏打"
