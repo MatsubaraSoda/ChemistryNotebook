@@ -1,0 +1,5 @@
+/* 主内容区域居中，左右两侧空白相等 */
+#quarto-content {
+    width: 80%;
+    margin: 0 auto;
+}

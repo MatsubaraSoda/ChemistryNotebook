@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+  preview: 
+    browser: false
+    port: 4004
+
+website:
+  title: "化学笔记"
+  navbar:
+    search: true
+    left:
+      - href: "index.ipynb"
+        text: "主页"
+      - href: "中心科学/基础知识.ipynb"
+        text: "中心科学"
+  sidebar: 
+    - title: "笔记"
+      style: "docked"
+      alignment: "left"
+      contents:
+        - section: "中心科学"
+          contents:
+            - href: "中心科学/基础知识.ipynb"
+              text: "基础知识"
+            - href: "中心科学/原子的电子结构.ipynb"
+              text: "原子的电子结构"
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+title: "化学笔记"
+author: "松原苏打"
+lang: zh-CN
