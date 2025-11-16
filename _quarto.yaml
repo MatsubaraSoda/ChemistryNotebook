@@ -30,8 +30,11 @@ website:
           contents:
             - href: "中心科学/基础知识.ipynb"
               text: "基础知识"
+            - href: "中心科学/连续光谱图.ipynb"
+              text: "连续光谱图"
             - href: "中心科学/原子的电子结构.ipynb"
               text: "原子的电子结构"
+
 
 format:
   html:
@@ -40,6 +43,9 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    code-fold: true
+    lightbox:
+      match: auto
 
 title: "化学笔记"
 author: "松原苏打"
