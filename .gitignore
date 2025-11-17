@@ -4,3 +4,6 @@ _site/
 .cache/
 /.quarto/
 **/*.quarto_ipynb
+
+# 其他
+playground/

@@ -32,9 +32,12 @@ website:
               text: "基础知识"
             - href: "中心科学/连续光谱图.ipynb"
               text: "连续光谱图"
+            - href: "中心科学/电子排布图.ipynb"
+              text: "电子排布图"
             - href: "中心科学/原子的电子结构.ipynb"
               text: "原子的电子结构"
-
+            - href: "中心科学/测试.ipynb"
+              text: "测试"
 
 format:
   html:
