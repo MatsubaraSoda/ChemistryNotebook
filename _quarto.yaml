@@ -3,7 +3,7 @@ project:
   output-dir: _site
   preview: 
     browser: false
-    port: 4004
+    port: 4104
   render:
     - "*.ipynb"
     - "*.qmd"
@@ -36,6 +36,8 @@ website:
               text: "电子排布图"
             - href: "中心科学/原子的电子结构.ipynb"
               text: "原子的电子结构"
+            - href: "中心科学/元素的周期性.ipynb"
+              text: "元素的周期性"
             - href: "中心科学/测试.ipynb"
               text: "测试"
 
