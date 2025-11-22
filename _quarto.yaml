@@ -38,6 +38,8 @@ website:
               text: "原子的电子结构"
             - href: "中心科学/元素的周期性.ipynb"
               text: "元素的周期性"
+            - href: "中心科学/化学键的基本概念.ipynb"
+              text: "化学键的基本概念"
             - href: "中心科学/测试.ipynb"
               text: "测试"
 
