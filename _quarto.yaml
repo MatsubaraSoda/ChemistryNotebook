@@ -3,7 +3,7 @@ project:
   output-dir: _site
   preview: 
     browser: false
-    port: 4104
+    port: 4004
   render:
     - "*.ipynb"
     - "*.qmd"
@@ -40,6 +40,8 @@ website:
               text: "元素的周期性"
             - href: "中心科学/化学键的基本概念.ipynb"
               text: "化学键的基本概念"
+            - href: "中心科学/分子几何结构与成键理论.ipynb"
+              text: "分子几何结构与成键理论"
             - href: "中心科学/测试.ipynb"
               text: "测试"
 
@@ -50,6 +52,7 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    toc-expand: 6
     code-fold: true
     lightbox:
       match: auto
