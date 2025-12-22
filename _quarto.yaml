@@ -42,6 +42,8 @@ website:
               text: "化学键的基本概念"
             - href: "中心科学/分子几何结构与成键理论.ipynb"
               text: "分子几何结构与成键理论"
+            - href: "中心科学/气体.ipynb"
+              text: "气体"
             - href: "中心科学/测试.ipynb"
               text: "测试"
 
