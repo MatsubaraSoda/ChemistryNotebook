@@ -28,6 +28,8 @@ website:
       contents:
         - section: "中心科学"
           contents:
+            - href: "中心科学/学习链接.ipynb"
+              text: "学习链接"
             - href: "中心科学/基础知识.ipynb"
               text: "基础知识"
             - href: "中心科学/连续光谱图.ipynb"
@@ -46,6 +48,8 @@ website:
               text: "气体"
             - href: "中心科学/液体和分子间力.ipynb"
               text: "液体和分子间力"
+            - href: "中心科学/固体和现代材料.ipynb"
+              text: "固体和现代材料"
             - href: "中心科学/测试.ipynb"
               text: "测试"
 
