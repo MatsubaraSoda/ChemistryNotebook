@@ -3,3 +3,10 @@
     width: 80%;
     margin: 0 auto;
 }
+
+/* 覆盖侧边栏玻璃效果的背景色为白色 */
+@media (max-width: 991.98px) {
+    #quarto-sidebar-glass.show {
+        background-color: white;
+    }
+}

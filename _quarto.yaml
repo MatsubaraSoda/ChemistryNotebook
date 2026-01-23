@@ -52,6 +52,11 @@ website:
               text: "固体和现代材料"
             - href: "中心科学/测试.ipynb"
               text: "测试"
+            - section: "小结"
+              expanded: true
+              contents:
+                - href: "中心科学/小结/热化学方程式.ipynb"
+                  text: "热化学方程式"
 
 format:
   html:
