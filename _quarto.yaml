@@ -57,6 +57,8 @@ website:
                   text: "热化学方程式"
                 - href: "中心科学/小结/电负性.ipynb"
                   text: "电负性"
+                - href: "中心科学/小结/汤姆逊荷质比实验.ipynb"
+                  text: "汤姆逊荷质比实验"
 
 format:
   html:
