@@ -59,6 +59,8 @@ website:
                   text: "电负性"
                 - href: "中心科学/小结/汤姆逊荷质比实验.ipynb"
                   text: "汤姆逊荷质比实验"
+                - href: "中心科学/小结/卢瑟福模型与电子坠落.ipynb"
+                  text: "卢瑟福模型与电子坠落"                
 
 format:
   html:
