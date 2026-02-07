@@ -61,6 +61,8 @@ website:
                   text: "汤姆逊荷质比实验"
                 - href: "中心科学/小结/卢瑟福模型与电子坠落.ipynb"
                   text: "卢瑟福模型与电子坠落"                
+                - href: "中心科学/小结/玻尔模型.ipynb"
+                  text: "玻尔模型"
 
 format:
   html:
