@@ -63,8 +63,8 @@ website:
                   text: "卢瑟福模型与电子坠落"                
                 - href: "中心科学/小结/玻尔模型.ipynb"
                   text: "玻尔模型"
-                - href: "中心科学/小结/麦克斯韦-玻尔兹曼分布.ipynb"
-                  text: "麦克斯韦-玻尔兹曼分布"
+                - href: "中心科学/小结/玻尔兹曼分布.ipynb"
+                  text: "玻尔兹曼分布"
 
 format:
   html:
