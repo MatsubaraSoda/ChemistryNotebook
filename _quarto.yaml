@@ -54,6 +54,8 @@ website:
               text: "溶液的性质"
             - href: "中心科学/化学动力学.ipynb"
               text: "化学动力学"
+            - href: "中心科学/化学平衡.ipynb"
+              text: "化学平衡"
             - section: "小结"
               expanded: true
               contents:
