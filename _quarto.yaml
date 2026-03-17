@@ -12,6 +12,9 @@ project:
     - "!*.tar.gz"
     - "!quarto-bin/**"
 
+execute: 
+  freeze: auto
+
 website:
   title: "化学笔记"
   navbar:
@@ -56,6 +59,8 @@ website:
               text: "化学动力学"
             - href: "中心科学/化学平衡.ipynb"
               text: "化学平衡"
+            - href: "中心科学/酸碱平衡.ipynb"
+              text: "酸碱平衡"
             - section: "小结"
               expanded: true
               contents:
@@ -83,6 +88,7 @@ format:
     code-fold: true
     lightbox:
       match: auto
+    html-math-method: mathjax
 
 title: "化学笔记"
 author: "松原苏打"
