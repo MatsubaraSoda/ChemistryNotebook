@@ -11,6 +11,8 @@ project:
     - "!quarto-*/**"
     - "!*.tar.gz"
     - "!quarto-bin/**"
+    # 笔记本生成脚本，勿当作站点输入
+    - "!**/script_*.py"
 
 execute: 
   freeze: auto
@@ -76,6 +78,8 @@ website:
                   text: "玻尔模型"
                 - href: "中心科学/小结/玻尔兹曼分布.ipynb"
                   text: "玻尔兹曼分布"
+                - href: "中心科学/小结/酸碱滴定实验.ipynb"
+                  text: "酸碱滴定实验"
 
 format:
   html:

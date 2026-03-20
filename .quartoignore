@@ -1,0 +1,2 @@
+# 本地生成 notebook 的脚本，不参与 Quarto 渲染/资源收集
+**/script_*.py
