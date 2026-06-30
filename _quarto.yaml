@@ -11,8 +11,13 @@ project:
     - "!quarto-*/**"
     - "!*.tar.gz"
     - "!quarto-bin/**"
-    # 笔记本生成脚本，勿当作站点输入
+    # 笔记本生成脚本 (含 script_md_to_ipynb.py)，勿进站点、勿当作渲染输入
     - "!**/script_*.py"
+    # Markdown 原型 (proto_*.md)，勿渲染为页面
+    - "!**/proto_*.md"
+  # 查普曼建模配套数据目录: 整目录复制到 _site，读者可通过文中相对链接下载 CSV 等
+  resources:
+    - "中心科学/小结/基于查普曼循环的大气臭氧浓度垂直分布建模/**"
 
 execute: 
   freeze: auto
@@ -80,6 +85,8 @@ website:
                   text: "玻尔兹曼分布"
                 - href: "中心科学/小结/酸碱滴定实验.ipynb"
                   text: "酸碱滴定实验"
+                - href: "中心科学/小结/基于查普曼循环的大气臭氧浓度垂直分布建模.ipynb"
+                  text: "基于查普曼循环的大气臭氧浓度垂直分布建模"
 
 format:
   html:

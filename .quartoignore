@@ -1,2 +1,3 @@
-# 本地生成 notebook 的脚本，不参与 Quarto 渲染/资源收集
+# 本地工具与信源 (含 script_md_to_ipynb.py 与 proto_*.md)，不参与 Quarto 渲染/扫描进站点
 **/script_*.py
+**/proto_*.md
