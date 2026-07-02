@@ -38,8 +38,6 @@ website:
       contents:
         - section: "中心科学"
           contents:
-            - href: "中心科学/学习链接.ipynb"
-              text: "学习链接"
             - href: "中心科学/基础知识.ipynb"
               text: "基础知识"
             - href: "中心科学/连续光谱图.ipynb"
