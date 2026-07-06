@@ -66,6 +66,8 @@ website:
               text: "化学平衡"
             - href: "中心科学/酸碱平衡.ipynb"
               text: "酸碱平衡"
+            - href: "中心科学/第19章化学热力学.ipynb"
+              text: "第 19 章 化学热力学"
             - section: "小结"
               expanded: true
               contents:
