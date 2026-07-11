@@ -10,3 +10,6 @@ playground/
 
 # Cursor 编辑器本地配置 (勿提交)
 .cursor/
+
+# WorkBuddy
+.workbuddy/
