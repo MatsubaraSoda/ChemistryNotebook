@@ -43,6 +43,8 @@ const ariaLabel = computed(() => {
 <template>
   <!--
     Cell 内部架构（方形，flex 列，无 margin）
+    字号/区带高度继承 PeriodicTable 上相对 --cell-size 的变量：
+    --font-meta / --font-symbol / --band-meta
 
     ┌─ shell：size-(--cell-size)，始终方形 ─────────┐
     │ ① band-z      固定高度，贴上边；文字在区域内垂直居中、水平左对齐 │
@@ -59,21 +61,21 @@ const ariaLabel = computed(() => {
   >
     <!-- ① 原子序数区：贴上边；文字垂直居中、左对齐 -->
     <div
-      class="flex h-5 shrink-0 items-center justify-start px-0.5 text-left text-xs leading-none tabular-nums"
+      class="flex h-(--band-meta) shrink-0 items-center justify-start px-0.5 text-left text-[length:var(--font-meta)] leading-none tabular-nums"
     >
       {{ displayZ }}
     </div>
 
     <!-- ② 符号区：剩余空间；文字垂直+水平居中 -->
     <div
-      class="flex flex-1 items-center justify-center text-lg leading-none font-semibold"
+      class="flex flex-1 items-center justify-center text-[length:var(--font-symbol)] leading-none font-semibold"
     >
       {{ displaySymbol }}
     </div>
 
     <!-- ③ 属性区（第一版：相对原子质量）：贴下边；文字垂直居中、水平居中 -->
     <div
-      class="flex h-5 shrink-0 items-center justify-center truncate px-0.5 text-xs leading-none tabular-nums"
+      class="flex h-(--band-meta) shrink-0 items-center justify-center truncate px-0.5 text-[length:var(--font-meta)] leading-none tabular-nums"
     >
       {{ displayProperty }}
     </div>

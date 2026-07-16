@@ -18,17 +18,20 @@ const gridStyle = {
 /** 镧/锕系行：左偏移 + 15 格后，剩余列填满以免挤到下一行开头 */
 const fRowTrailing = COLS - F_BLOCK_OFFSET_COLS - LANTHANIDES.length
 
-/** 轴标签：正方形格内水平+垂直居中；字号大于 ElementCell 原子序数（text-xs） */
+/** 轴标签：正方形格内居中；字号用 --font-axis（相对 --cell-size） */
 const axisLabelClass =
-  'box-border flex size-(--cell-size) items-center justify-center text-xl leading-none font-semibold tabular-nums text-neutral-700 opacity-60'
+  'box-border flex size-(--cell-size) items-center justify-center text-[length:var(--font-axis)] leading-none font-semibold tabular-nums text-neutral-700 opacity-60'
 </script>
 
 <template>
   <!--
     两个独立 grid（主表 / f 区），列：轴正方形 + 元素 × 18
     族/周期/6*/7* 均为无边框正方形；仅 ElementCell 有边框。
+    字号相对 --cell-size：--font-meta / --font-symbol / --font-axis；区带高 --band-meta
   -->
-  <div class="inline-flex flex-col gap-3 [--cell-size:4.5rem]">
+  <div
+    class="inline-flex flex-col gap-3 [--cell-size:4rem] [--font-meta:calc(var(--cell-size)*0.17)] [--font-symbol:calc(var(--cell-size)*0.28)] [--font-axis:calc(var(--cell-size)*0.32)] [--band-meta:calc(var(--cell-size)*0.28)]"
+  >
     <!-- 主表：(1+7)×(1+18) = 顶栏族号 + 侧栏周期 + 元素 -->
     <div class="grid gap-0.5" :style="gridStyle">
       <!-- 行 0：空角 + 族号 1–18（均为正方形） -->
