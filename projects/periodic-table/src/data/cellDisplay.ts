@@ -8,7 +8,33 @@ export function formatAtomicMass(
   return String(value)
 }
 
+export function formatElectronegativityPauling(
+  value: number | null | undefined,
+): string {
+  if (value === null || value === undefined) return MISSING
+  return value.toFixed(2)
+}
+
+export function formatAtomicRadiusPm(
+  value: number | null | undefined,
+): string {
+  if (value === null || value === undefined) return MISSING
+  return String(value)
+}
+
+export function formatCovalentRadiusPyykkoPm(
+  value: number | null | undefined,
+): string {
+  if (value === null || value === undefined) return MISSING
+  return String(value)
+}
+
 export function formatSymbol(value: string | null | undefined): string {
+  if (value === null || value === undefined || value === '') return MISSING
+  return value
+}
+
+export function formatNameZh(value: string | null | undefined): string {
   if (value === null || value === undefined || value === '') return MISSING
   return value
 }

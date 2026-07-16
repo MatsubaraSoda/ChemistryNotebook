@@ -20,7 +20,7 @@ const fRowTrailing = COLS - F_BLOCK_OFFSET_COLS - LANTHANIDES.length
 
 /** 轴标签：正方形格内居中；字号用 --font-axis（相对 --cell-size） */
 const axisLabelClass =
-  'box-border flex size-(--cell-size) items-center justify-center text-[length:var(--font-axis)] leading-none font-semibold tabular-nums text-neutral-700 opacity-60'
+  'box-border flex size-(--cell-size) items-center justify-center text-(length:--font-axis) leading-none font-semibold tabular-nums text-neutral-700 opacity-60'
 </script>
 
 <template>

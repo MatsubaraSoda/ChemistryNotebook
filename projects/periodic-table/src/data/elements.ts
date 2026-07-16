@@ -41,7 +41,7 @@ export interface ElementInfo {
   nameEn: string
   /** 中文名称（单汉字） */
   nameZh: string
-  /** 相对原子质量（u，IUPAC；同 amu/Da，最多三位小数）；无标准原子量时为 "[质量数]" */
+  /** 标准原子量（无量纲；无标准原子量时为 "[质量数]"） */
   atomicMass: number | string
   /** mendeleev 分类；无物理单位 */
   series: ElementSeries
@@ -59,7 +59,7 @@ export const ELEMENT_FIELD_UNITS = {
   symbol: null,
   nameEn: null,
   nameZh: null,
-  atomicMass: 'u',
+  atomicMass: null,
   series: null,
   electronegativityPauling: null,
   atomicRadiusPm: 'pm',

@@ -11,6 +11,11 @@ dependencies = [
     "mendeleev>=1.1.0",
 ]
 
+[project.optional-dependencies]
+colormap = [
+    "matplotlib>=3.8",
+]
+
 [project.scripts]
 periodic-table-data = "periodic_table_data:main"
 
