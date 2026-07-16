@@ -1,0 +1,19 @@
+[project]
+name = "periodic-table-data"
+version = "0.1.0"
+description = "Python 数据流水线：拉取/整理元素周期表数据，导出给前端 periodic-table"
+readme = "README.md"
+authors = [
+    { name = "MatsubaraSoda", email = "matsubarasoda@gmail.com" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "mendeleev>=1.1.0",
+]
+
+[project.scripts]
+periodic-table-data = "periodic_table_data:main"
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12.0"]
+build-backend = "uv_build"
