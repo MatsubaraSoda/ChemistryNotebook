@@ -28,3 +28,9 @@ export const ACTINIDES: number[] = [
 
 export const COLS = 18
 export const F_BLOCK_OFFSET_COLS = 2
+
+/** IUPAC 族号 1–18（顶栏） */
+export const GROUP_NUMBERS = Array.from({ length: COLS }, (_, i) => i + 1)
+
+/** 主表周期号 1–7（侧栏） */
+export const PERIOD_NUMBERS = MAIN_TABLE.map((_, i) => i + 1)
