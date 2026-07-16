@@ -18,6 +18,7 @@ project:
   # 查普曼建模配套数据目录: 整目录复制到 _site，读者可通过文中相对链接下载 CSV 等
   resources:
     - "中心科学/小结/基于查普曼循环的大气臭氧浓度垂直分布建模/**"
+    - "projects/periodic-table/dist/index.html"
 
 execute: 
   freeze: auto
