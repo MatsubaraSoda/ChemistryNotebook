@@ -8,6 +8,7 @@ from typing import Any
 
 from mendeleev import element
 
+from periodic_table_data.models import ElementRecord, assert_field_units_complete
 from periodic_table_data.name_zh import NAME_ZH
 
 # Package root: .../periodic-table-data
@@ -51,21 +52,40 @@ def _atomic_mass_field(el: Any) -> float | str:
     return _round_max_3(aw)
 
 
-def build_elements() -> list[dict[str, Any]]:
-    rows: list[dict[str, Any]] = []
+def _pauling_electronegativity(el: Any) -> float | None:
+    value = el.en_pauling
+    if value is None:
+        return None
+    return round(float(value), 2)
+
+
+def _radius_pm(el: Any, attr: str) -> int | None:
+    value = getattr(el, attr)
+    if value is None:
+        return None
+    return round(float(value))
+
+
+def build_elements() -> list[ElementRecord]:
+    assert_field_units_complete()
+    rows: list[ElementRecord] = []
     for z in range(1, 119):
         el = element(z)
         rows.append(
-            {
-                "atomicNumber": z,
-                "symbol": el.symbol,
-                "nameEn": el.name,
-                "nameZh": NAME_ZH[z - 1],
-                "atomicMass": _atomic_mass_field(el),
-            }
+            ElementRecord(
+                atomicNumber=z,
+                symbol=el.symbol,
+                nameEn=el.name,
+                nameZh=NAME_ZH[z - 1],
+                atomicMass=_atomic_mass_field(el),
+                series=el.series,
+                electronegativityPauling=_pauling_electronegativity(el),
+                atomicRadiusPm=_radius_pm(el, "atomic_radius"),
+                covalentRadiusPyykkoPm=_radius_pm(el, "covalent_radius_pyykko"),
+            )
         )
     assert len(rows) == 118
-    assert all(r["atomicMass"] is not None and r["atomicMass"] != "" for r in rows)
+    assert all(r.covalentRadiusPyykkoPm is not None for r in rows)
     return rows
 
 
@@ -74,7 +94,7 @@ def run(output_path: Path | None = None) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     rows = build_elements()
     path.write_text(
-        json.dumps(rows, ensure_ascii=False, indent=2) + "\n",
+        json.dumps([r.to_dict() for r in rows], ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     return path
