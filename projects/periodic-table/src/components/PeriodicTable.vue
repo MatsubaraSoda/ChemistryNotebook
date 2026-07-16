@@ -28,9 +28,11 @@ const axisLabelClass =
     两个独立 grid（主表 / f 区），列：轴正方形 + 元素 × 18
     族/周期/6*/7* 均为无边框正方形；仅 ElementCell 有边框。
     字号相对 --cell-size：--font-meta / --font-symbol / --font-axis；区带高 --band-meta
+    表宽 W = 19×cell + 18×gap(0.125rem)；4rem 时约 1252px
+    cell = clamp：左右各留 0.75rem 内边距（用 100vw 扣减，不用 margin）
   -->
   <div
-    class="inline-flex flex-col gap-3 [--cell-size:4rem] [--font-meta:calc(var(--cell-size)*0.17)] [--font-symbol:calc(var(--cell-size)*0.28)] [--font-axis:calc(var(--cell-size)*0.32)] [--band-meta:calc(var(--cell-size)*0.28)]"
+    class="inline-flex flex-col gap-3 [--cell-size:clamp(1.5rem,calc((100vw-1.5rem-18*0.125rem)/19),4rem)] [--font-meta:calc(var(--cell-size)*0.17)] [--font-symbol:calc(var(--cell-size)*0.28)] [--font-axis:calc(var(--cell-size)*0.32)] [--band-meta:calc(var(--cell-size)*0.28)]"
   >
     <!-- 主表：(1+7)×(1+18) = 顶栏族号 + 侧栏周期 + 元素 -->
     <div class="grid gap-0.5" :style="gridStyle">

@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+/* Hide vertical scrollbar; keep scroll (wheel / touch / keys) */
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

@@ -23,7 +23,7 @@ provide(CHINESE_DISPLAY_KEY, chineseDisplay)
     <!-- Flush to viewport: no margin/padding on the control bar layer -->
     <TopControlGrid />
 
-    <div class="flex flex-1 flex-col items-center overflow-x-auto pt-8">
+    <div class="flex flex-1 flex-col items-center overflow-x-auto px-3 pt-8">
       <PeriodicTable />
     </div>
   </main>
