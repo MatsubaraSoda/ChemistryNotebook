@@ -8,7 +8,14 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+
+# 默认忽略整个 dist（含 Vite 脚手架留下的 favicon.svg / icons.svg）
 dist
+# 但放出目录本身，再只跟踪单文件产物 index.html：
+# Quarto resources / 部署机无需 npm build，即可复制交互式周期表页面
+!dist/
+dist/*
+!dist/index.html
 dist-ssr
 *.local
 
