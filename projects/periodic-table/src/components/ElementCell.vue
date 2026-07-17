@@ -5,8 +5,18 @@ import {
   atomicRadiusTextClass,
   covalentRadiusBackground,
   covalentRadiusTextClass,
+  electronAffinityBackground,
+  electronAffinityTextClass,
   electronegativityBackground,
   electronegativityTextClass,
+  ionizationEnergyBackground,
+  ionizationEnergyTextClass,
+  metallicRadiusBackground,
+  metallicRadiusTextClass,
+  seriesBackground,
+  seriesTextClass,
+  vdwRadiusBackground,
+  vdwRadiusTextClass,
 } from '../data/colorScale'
 import { CHINESE_DISPLAY_KEY } from '../data/displaySettings'
 import { ELEMENTS_BY_Z } from '../data/elements'
@@ -14,12 +24,17 @@ import {
   formatAtomicMass,
   formatAtomicRadiusPm,
   formatCovalentRadiusPyykkoPm,
+  formatElectronAffinityKjMol,
   formatElectronegativityPauling,
+  formatIonizationEnergyFirstKjMol,
+  formatMetallicRadiusPm,
   formatNameZh,
   formatSymbol,
+  formatVdwRadiusPm,
   MISSING,
 } from '../data/cellDisplay'
 import { PROPERTY_MODE_KEY } from '../data/propertyModes'
+import { formatSeries } from '../data/seriesDisplay'
 
 const props = defineProps<{
   atomicNumber: number
@@ -84,8 +99,28 @@ const displayCovalentRadius = computed(() =>
   formatCovalentRadiusPyykkoPm(element.value?.covalentRadiusPyykkoPm),
 )
 
+const displayMetallicRadius = computed(() =>
+  formatMetallicRadiusPm(element.value?.metallicRadiusPm),
+)
+
+const displayVdwRadius = computed(() =>
+  formatVdwRadiusPm(element.value?.vdwRadiusPm),
+)
+
+const displayIonizationEnergy = computed(() =>
+  formatIonizationEnergyFirstKjMol(element.value?.ionizationEnergyFirstKjMol),
+)
+
+const displayElectronAffinity = computed(() =>
+  formatElectronAffinityKjMol(element.value?.electronAffinityKjMol),
+)
+
+const displaySeries = computed(() => formatSeries(element.value?.series))
+
 const displayProperty = computed(() => {
   switch (propertyMode.value) {
+    case 'series':
+      return displaySeries.value
     case 'atomicMass':
       return displayMass.value
     case 'electronegativityPauling':
@@ -94,6 +129,14 @@ const displayProperty = computed(() => {
       return displayAtomicRadius.value
     case 'covalentRadiusPyykkoPm':
       return displayCovalentRadius.value
+    case 'metallicRadiusPm':
+      return displayMetallicRadius.value
+    case 'vdwRadiusPm':
+      return displayVdwRadius.value
+    case 'ionizationEnergyFirstKjMol':
+      return displayIonizationEnergy.value
+    case 'electronAffinityKjMol':
+      return displayElectronAffinity.value
     default:
       return MISSING
   }
@@ -101,12 +144,22 @@ const displayProperty = computed(() => {
 
 const cellBackground = computed(() => {
   switch (propertyMode.value) {
+    case 'series':
+      return seriesBackground(element.value?.series)
     case 'electronegativityPauling':
       return electronegativityBackground(element.value?.electronegativityPauling)
     case 'atomicRadiusPm':
       return atomicRadiusBackground(element.value?.atomicRadiusPm)
     case 'covalentRadiusPyykkoPm':
       return covalentRadiusBackground(element.value?.covalentRadiusPyykkoPm)
+    case 'metallicRadiusPm':
+      return metallicRadiusBackground(element.value?.metallicRadiusPm)
+    case 'vdwRadiusPm':
+      return vdwRadiusBackground(element.value?.vdwRadiusPm)
+    case 'ionizationEnergyFirstKjMol':
+      return ionizationEnergyBackground(element.value?.ionizationEnergyFirstKjMol)
+    case 'electronAffinityKjMol':
+      return electronAffinityBackground(element.value?.electronAffinityKjMol)
     default:
       return 'white'
   }
@@ -114,12 +167,22 @@ const cellBackground = computed(() => {
 
 const propertyTextClass = computed(() => {
   switch (propertyMode.value) {
+    case 'series':
+      return seriesTextClass(element.value?.series)
     case 'electronegativityPauling':
       return electronegativityTextClass(element.value?.electronegativityPauling)
     case 'atomicRadiusPm':
       return atomicRadiusTextClass(element.value?.atomicRadiusPm)
     case 'covalentRadiusPyykkoPm':
       return covalentRadiusTextClass(element.value?.covalentRadiusPyykkoPm)
+    case 'metallicRadiusPm':
+      return metallicRadiusTextClass(element.value?.metallicRadiusPm)
+    case 'vdwRadiusPm':
+      return vdwRadiusTextClass(element.value?.vdwRadiusPm)
+    case 'ionizationEnergyFirstKjMol':
+      return ionizationEnergyTextClass(element.value?.ionizationEnergyFirstKjMol)
+    case 'electronAffinityKjMol':
+      return electronAffinityTextClass(element.value?.electronAffinityKjMol)
     default:
       return 'text-black'
   }
@@ -135,15 +198,25 @@ const ariaLabel = computed(() => {
         ? '，中文名大字显示于符号区'
         : ''
   switch (propertyMode.value) {
+    case 'series':
+      return `${el.nameZh}，${el.atomicNumber} 号，${displaySeries.value}${chineseDisplayNote}`
     case 'electronegativityPauling':
       return `${el.nameZh}，${el.atomicNumber} 号，Pauling 电负性 ${displayElectronegativity.value}${chineseDisplayNote}`
     case 'atomicRadiusPm':
       return `${el.nameZh}，${el.atomicNumber} 号，原子半径 ${displayAtomicRadius.value} pm${chineseDisplayNote}`
     case 'covalentRadiusPyykkoPm':
       return `${el.nameZh}，${el.atomicNumber} 号，Pyykkö 单键共价半径 ${displayCovalentRadius.value} pm${chineseDisplayNote}`
+    case 'metallicRadiusPm':
+      return `${el.nameZh}，${el.atomicNumber} 号，金属半径 ${displayMetallicRadius.value} pm${chineseDisplayNote}`
+    case 'vdwRadiusPm':
+      return `${el.nameZh}，${el.atomicNumber} 号，范德华半径 ${displayVdwRadius.value} pm${chineseDisplayNote}`
+    case 'ionizationEnergyFirstKjMol':
+      return `${el.nameZh}，${el.atomicNumber} 号，第一电离能 ${displayIonizationEnergy.value} kJ/mol${chineseDisplayNote}`
+    case 'electronAffinityKjMol':
+      return `${el.nameZh}，${el.atomicNumber} 号，电子亲和能 ${displayElectronAffinity.value} kJ/mol${chineseDisplayNote}`
     default:
       return `${el.nameZh}，${el.atomicNumber} 号，标准原子量 ${displayMass.value}${chineseDisplayNote}`
-    }
+  }
 })
 </script>
 

@@ -23,7 +23,7 @@
 
 - Python：**3.12 系列**（`requires-python = ">=3.12,<3.13"`）
 - `.python-version` 已 pin 为 `3.12`
-- 依赖：**mendeleev**（符号、英文名、相对原子质量、Pauling 电负性、中性元素半径）
+- 依赖：**mendeleev**（符号、英文名、相对原子质量、Pauling 电负性、半径、电离能、电子亲和能）；**pint**（eV → kJ/mol）
 
 ## 中文名
 
@@ -70,10 +70,20 @@ uv run python -m periodic_table_data.export_colormap --name BuPu --n 256
 | `electronegativityPauling` | Pauling 标度，无量纲；无公认值时为 `null` |
 | `atomicRadiusPm` | pm（Slater 原子半径，`el.atomic_radius`）；约 28 个元素为 `null` |
 | `covalentRadiusPyykkoPm` | pm（Pyykkö 单键共价半径，`el.covalent_radius_pyykko`）；118 个均有值 |
+| `metallicRadiusPm` | pm（金属半径，`el.metallic_radius`）；仅金属/类金属约 56 个有值，非金属/稀有气体/镧系/锕系多为 `null` |
+| `vdwRadiusPm` | pm（范德华半径，mendeleev 默认 `el.vdw_radius`）；约 103 个有值，超重元素（Rf–Og）为 `null` |
+| `ionizationEnergyFirstKjMol` | kJ/mol（第一电离能；mendeleev `ionenergies[1]` 经 pint：`eV * N_A → kJ/mol`） |
+| `electronAffinityKjMol` | kJ/mol（电子亲和能；mendeleev `electron_affinity` 经同一 pint 换算；符号约定与库一致：结合电子放热多为正） |
+
+### 精度：存储层与展示层解耦
+
+| 层 | IE / EA |
+|----|---------|
+| `elements.json` | 全精度浮点（pint 换算结果，不截断） |
+| `elements.ts` | 取整到个位（教材 kJ/mol 表） |
 
 其他约定：
 
 - `atomicMass`：最多三位小数；无标准相对原子质量的放射性核素为整数质量数并加 `[]`（如 `[209]`）
 - `electronegativityPauling`：保留两位小数
 - 说明：mendeleev 的 `mass_str()` 会对所有 `is_radioactive` 加括号（铀会变成 `[238.02891]`），与 IUPAC 不符；本项目按 IUPAC：Th/Pa/U 用数值，其余无标准原子量的放射性元素用 `[质量数]`
-

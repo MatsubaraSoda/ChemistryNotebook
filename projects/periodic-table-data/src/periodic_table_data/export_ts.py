@@ -63,6 +63,14 @@ export interface ElementInfo {
   atomicRadiusPm: number | null
   /** Pyykkö 单键共价半径（pm）；无数据时为 null */
   covalentRadiusPyykkoPm: number | null
+  /** 金属半径（pm，`el.metallic_radius`）；非金属等无数据时为 null */
+  metallicRadiusPm: number | null
+  /** 范德华半径（pm，mendeleev 默认 `el.vdw_radius`）；超重元素等无数据时为 null */
+  vdwRadiusPm: number | null
+  /** 第一电离能（kJ/mol）；展示取整；无数据时为 null */
+  ionizationEnergyFirstKjMol: number | null
+  /** 电子亲和能（kJ/mol，mendeleev 符号约定）；展示取整；无数据时为 null */
+  electronAffinityKjMol: number | null
 }
 
 /** 各字段单位；null 表示无物理单位或为分类/文本 */
@@ -76,6 +84,10 @@ export const ELEMENT_FIELD_UNITS = {
   electronegativityPauling: null,
   atomicRadiusPm: 'pm',
   covalentRadiusPyykkoPm: 'pm',
+  metallicRadiusPm: 'pm',
+  vdwRadiusPm: 'pm',
+  ionizationEnergyFirstKjMol: 'kJ/mol',
+  electronAffinityKjMol: 'kJ/mol',
 } as const
 
 /** 1–118 号元素基本信息（由 periodic-table-data/data/elements.json 生成） */
@@ -104,17 +116,30 @@ def _format_nullable_number(value: int | float | None) -> str:
     return "null" if value is None else repr(value)
 
 
+def _format_nullable_kj_mol(value: float | None) -> str:
+    """General-chemistry display: integer kJ/mol."""
+    if value is None:
+        return "null"
+    return repr(round(float(value)))
+
+
 def _format_row(row: dict) -> str:
     mass = _format_atomic_mass(row["atomicMass"])
     en = _format_nullable_number(row["electronegativityPauling"])
     ar = _format_nullable_number(row["atomicRadiusPm"])
     cr = _format_nullable_number(row["covalentRadiusPyykkoPm"])
+    mr = _format_nullable_number(row["metallicRadiusPm"])
+    vr = _format_nullable_number(row["vdwRadiusPm"])
+    ie = _format_nullable_kj_mol(row["ionizationEnergyFirstKjMol"])
+    ea = _format_nullable_kj_mol(row["electronAffinityKjMol"])
     return (
         f'  {{ atomicNumber: {row["atomicNumber"]}, symbol: {json.dumps(row["symbol"])}, '
         f'nameEn: {json.dumps(row["nameEn"])}, nameZh: {json.dumps(row["nameZh"], ensure_ascii=False)}, '
         f"atomicMass: {mass}, series: {json.dumps(row['series'])}, "
         f"electronegativityPauling: {en}, atomicRadiusPm: {ar}, "
-        f"covalentRadiusPyykkoPm: {cr} }},"
+        f"covalentRadiusPyykkoPm: {cr}, metallicRadiusPm: {mr}, vdwRadiusPm: {vr}, "
+        f"ionizationEnergyFirstKjMol: {ie}, "
+        f"electronAffinityKjMol: {ea} }},"
     )
 
 

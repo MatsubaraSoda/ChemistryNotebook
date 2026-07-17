@@ -8,7 +8,11 @@
     "series": "Nonmetals",
     "electronegativityPauling": 2.2,
     "atomicRadiusPm": 25,
-    "covalentRadiusPyykkoPm": 32
+    "covalentRadiusPyykkoPm": 32,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 110,
+    "ionizationEnergyFirstKjMol": 1312.0494787093578,
+    "electronAffinityKjMol": 72.76875506073979
   },
   {
     "atomicNumber": 2,
@@ -19,7 +23,11 @@
     "series": "Noble gases",
     "electronegativityPauling": null,
     "atomicRadiusPm": 120,
-    "covalentRadiusPyykkoPm": 46
+    "covalentRadiusPyykkoPm": 46,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 140,
+    "ionizationEnergyFirstKjMol": 2372.3223947713577,
+    "electronAffinityKjMol": -1900.7610428292073
   },
   {
     "atomicNumber": 3,
@@ -30,7 +38,11 @@
     "series": "Alkali metals",
     "electronegativityPauling": 0.98,
     "atomicRadiusPm": 145,
-    "covalentRadiusPyykkoPm": 133
+    "covalentRadiusPyykkoPm": 133,
+    "metallicRadiusPm": 123,
+    "vdwRadiusPm": 182,
+    "ionizationEnergyFirstKjMol": 520.2214121032912,
+    "electronAffinityKjMol": 59.63266303347963
   },
   {
     "atomicNumber": 4,
@@ -41,7 +53,11 @@
     "series": "Alkaline earth metals",
     "electronegativityPauling": 1.57,
     "atomicRadiusPm": 105,
-    "covalentRadiusPyykkoPm": 102
+    "covalentRadiusPyykkoPm": 102,
+    "metallicRadiusPm": 89,
+    "vdwRadiusPm": 153,
+    "ionizationEnergyFirstKjMol": 899.5037093006501,
+    "electronAffinityKjMol": -231.56479709594402
   },
   {
     "atomicNumber": 5,
@@ -52,7 +68,11 @@
     "series": "Metalloids",
     "electronegativityPauling": 2.04,
     "atomicRadiusPm": 85,
-    "covalentRadiusPyykkoPm": 85
+    "covalentRadiusPyykkoPm": 85,
+    "metallicRadiusPm": 80,
+    "vdwRadiusPm": 192,
+    "ionizationEnergyFirstKjMol": 800.6371191805368,
+    "electronAffinityKjMol": 26.989166557528648
   },
   {
     "atomicNumber": 6,
@@ -63,7 +83,11 @@
     "series": "Nonmetals",
     "electronegativityPauling": 2.55,
     "atomicRadiusPm": 70,
-    "covalentRadiusPyykkoPm": 75
+    "covalentRadiusPyykkoPm": 75,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 170,
+    "ionizationEnergyFirstKjMol": 1086.452627484122,
+    "electronAffinityKjMol": 121.77597089413992
   },
   {
     "atomicNumber": 7,
@@ -74,7 +98,11 @@
     "series": "Nonmetals",
     "electronegativityPauling": 3.04,
     "atomicRadiusPm": 65,
-    "covalentRadiusPyykkoPm": 71
+    "covalentRadiusPyykkoPm": 71,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 155,
+    "ionizationEnergyFirstKjMol": 1402.3303601733637,
+    "electronAffinityKjMol": -135.079464972634
   },
   {
     "atomicNumber": 8,
@@ -85,7 +113,11 @@
     "series": "Nonmetals",
     "electronegativityPauling": 3.44,
     "atomicRadiusPm": 60,
-    "covalentRadiusPyykkoPm": 63
+    "covalentRadiusPyykkoPm": 63,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 152,
+    "ionizationEnergyFirstKjMol": 1313.9425595485027,
+    "electronAffinityKjMol": 140.97602131735192
   },
   {
     "atomicNumber": 9,
@@ -96,7 +128,11 @@
     "series": "Halogens",
     "electronegativityPauling": 3.98,
     "atomicRadiusPm": 50,
-    "covalentRadiusPyykkoPm": 64
+    "covalentRadiusPyykkoPm": 64,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 147,
+    "ionizationEnergyFirstKjMol": 1681.0465742246483,
+    "electronAffinityKjMol": 328.16491781888124
   },
   {
     "atomicNumber": 10,
@@ -107,7 +143,11 @@
     "series": "Noble gases",
     "electronegativityPauling": null,
     "atomicRadiusPm": 160,
-    "covalentRadiusPyykkoPm": 67
+    "covalentRadiusPyykkoPm": 67,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 154,
+    "ionizationEnergyFirstKjMol": 2080.661900471736,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 11,
@@ -118,7 +158,11 @@
     "series": "Alkali metals",
     "electronegativityPauling": 0.93,
     "atomicRadiusPm": 180,
-    "covalentRadiusPyykkoPm": 155
+    "covalentRadiusPyykkoPm": 155,
+    "metallicRadiusPm": 157,
+    "vdwRadiusPm": 227,
+    "ionizationEnergyFirstKjMol": 495.84554729285037,
+    "electronAffinityKjMol": 52.86682208899676
   },
   {
     "atomicNumber": 12,
@@ -129,7 +173,11 @@
     "series": "Alkaline earth metals",
     "electronegativityPauling": 1.31,
     "atomicRadiusPm": 150,
-    "covalentRadiusPyykkoPm": 139
+    "covalentRadiusPyykkoPm": 139,
+    "metallicRadiusPm": 136,
+    "vdwRadiusPm": 173,
+    "ionizationEnergyFirstKjMol": 737.7496199532095,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 13,
@@ -140,7 +188,11 @@
     "series": "Poor metals",
     "electronegativityPauling": 1.61,
     "atomicRadiusPm": 125,
-    "covalentRadiusPyykkoPm": 126
+    "covalentRadiusPyykkoPm": 126,
+    "metallicRadiusPm": 125,
+    "vdwRadiusPm": 184,
+    "ionizationEnergyFirstKjMol": 577.5389099784134,
+    "electronAffinityKjMol": 41.76174630293227
   },
   {
     "atomicNumber": 14,
@@ -151,7 +203,11 @@
     "series": "Metalloids",
     "electronegativityPauling": 1.9,
     "atomicRadiusPm": 110,
-    "covalentRadiusPyykkoPm": 116
+    "covalentRadiusPyykkoPm": 116,
+    "metallicRadiusPm": 117,
+    "vdwRadiusPm": 210,
+    "ionizationEnergyFirstKjMol": 786.5175521629438,
+    "electronAffinityKjMol": 134.06840482584707
   },
   {
     "atomicNumber": 15,
@@ -162,7 +218,11 @@
     "series": "Nonmetals",
     "electronegativityPauling": 2.19,
     "atomicRadiusPm": 100,
-    "covalentRadiusPyykkoPm": 111
+    "covalentRadiusPyykkoPm": 111,
+    "metallicRadiusPm": 110,
+    "vdwRadiusPm": 180,
+    "ionizationEnergyFirstKjMol": 1011.8113815828655,
+    "electronAffinityKjMol": 72.03662436058812
   },
   {
     "atomicNumber": 16,
@@ -173,7 +233,11 @@
     "series": "Nonmetals",
     "electronegativityPauling": 2.58,
     "atomicRadiusPm": 100,
-    "covalentRadiusPyykkoPm": 103
+    "covalentRadiusPyykkoPm": 103,
+    "metallicRadiusPm": 104,
+    "vdwRadiusPm": 180,
+    "ionizationEnergyFirstKjMol": 999.5890056508131,
+    "electronAffinityKjMol": 200.4100721892157
   },
   {
     "atomicNumber": 17,
@@ -184,7 +248,11 @@
     "series": "Halogens",
     "electronegativityPauling": 3.16,
     "atomicRadiusPm": 100,
-    "covalentRadiusPyykkoPm": 99
+    "covalentRadiusPyykkoPm": 99,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 175,
+    "ionizationEnergyFirstKjMol": 1251.186376858195,
+    "electronAffinityKjMol": 348.5749714951852
   },
   {
     "atomicNumber": 18,
@@ -195,7 +263,11 @@
     "series": "Noble gases",
     "electronegativityPauling": null,
     "atomicRadiusPm": 71,
-    "covalentRadiusPyykkoPm": 96
+    "covalentRadiusPyykkoPm": 96,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 188,
+    "ionizationEnergyFirstKjMol": 1520.5713883059686,
+    "electronAffinityKjMol": -1109.5813194180653
   },
   {
     "atomicNumber": 19,
@@ -206,7 +278,11 @@
     "series": "Alkali metals",
     "electronegativityPauling": 0.82,
     "atomicRadiusPm": 220,
-    "covalentRadiusPyykkoPm": 196
+    "covalentRadiusPyykkoPm": 196,
+    "metallicRadiusPm": 203,
+    "vdwRadiusPm": 275,
+    "ionizationEnergyFirstKjMol": 418.8103816246557,
+    "electronAffinityKjMol": 48.38449949987627
   },
   {
     "atomicNumber": 20,
@@ -217,7 +293,11 @@
     "series": "Alkaline earth metals",
     "electronegativityPauling": 1.0,
     "atomicRadiusPm": 180,
-    "covalentRadiusPyykkoPm": 171
+    "covalentRadiusPyykkoPm": 171,
+    "metallicRadiusPm": 174,
+    "vdwRadiusPm": 231,
+    "ionizationEnergyFirstKjMol": 589.8298358443793,
+    "electronAffinityKjMol": 2.368714903627261
   },
   {
     "atomicNumber": 21,
@@ -228,7 +308,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.36,
     "atomicRadiusPm": 160,
-    "covalentRadiusPyykkoPm": 148
+    "covalentRadiusPyykkoPm": 148,
+    "metallicRadiusPm": 144,
+    "vdwRadiusPm": 215,
+    "ionizationEnergyFirstKjMol": 633.0875418737775,
+    "electronAffinityKjMol": 18.139242439182283
   },
   {
     "atomicNumber": 22,
@@ -239,7 +323,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.54,
     "atomicRadiusPm": 140,
-    "covalentRadiusPyykkoPm": 136
+    "covalentRadiusPyykkoPm": 136,
+    "metallicRadiusPm": 132,
+    "vdwRadiusPm": 211,
+    "ionizationEnergyFirstKjMol": 658.8134259778157,
+    "electronAffinityKjMol": 7.622341237741491
   },
   {
     "atomicNumber": 23,
@@ -250,7 +338,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.63,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 134
+    "covalentRadiusPyykkoPm": 134,
+    "metallicRadiusPm": 122,
+    "vdwRadiusPm": 207,
+    "ionizationEnergyFirstKjMol": 650.9080932609564,
+    "electronAffinityKjMol": 50.65479936473776
   },
   {
     "atomicNumber": 24,
@@ -261,7 +353,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.66,
     "atomicRadiusPm": 140,
-    "covalentRadiusPyykkoPm": 122
+    "covalentRadiusPyykkoPm": 122,
+    "metallicRadiusPm": 119,
+    "vdwRadiusPm": 206,
+    "ionizationEnergyFirstKjMol": 652.8689646656985,
+    "electronAffinityKjMol": 64.25923119412447
   },
   {
     "atomicNumber": 25,
@@ -272,7 +368,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.55,
     "atomicRadiusPm": 140,
-    "covalentRadiusPyykkoPm": 119
+    "covalentRadiusPyykkoPm": 119,
+    "metallicRadiusPm": 118,
+    "vdwRadiusPm": 205,
+    "ionizationEnergyFirstKjMol": 717.2756254473073,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 26,
@@ -283,7 +383,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.83,
     "atomicRadiusPm": 140,
-    "covalentRadiusPyykkoPm": 116
+    "covalentRadiusPyykkoPm": 116,
+    "metallicRadiusPm": 117,
+    "vdwRadiusPm": 204,
+    "ionizationEnergyFirstKjMol": 762.4722592223627,
+    "electronAffinityKjMol": 14.569285150619812
   },
   {
     "atomicNumber": 27,
@@ -294,7 +398,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.88,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 111
+    "covalentRadiusPyykkoPm": 111,
+    "metallicRadiusPm": 116,
+    "vdwRadiusPm": 200,
+    "ionizationEnergyFirstKjMol": 760.4018673171274,
+    "electronAffinityKjMol": 63.89803449390758
   },
   {
     "atomicNumber": 28,
@@ -305,7 +413,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.91,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 110
+    "covalentRadiusPyykkoPm": 110,
+    "metallicRadiusPm": 115,
+    "vdwRadiusPm": 197,
+    "ionizationEnergyFirstKjMol": 737.1361662115695,
+    "electronAffinityKjMol": 111.53704393454638
   },
   {
     "atomicNumber": 29,
@@ -316,7 +428,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.9,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 112
+    "covalentRadiusPyykkoPm": 112,
+    "metallicRadiusPm": 118,
+    "vdwRadiusPm": 196,
+    "ionizationEnergyFirstKjMol": 745.4823404109001,
+    "electronAffinityKjMol": 119.15938517228788
   },
   {
     "atomicNumber": 30,
@@ -327,7 +443,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.65,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 118
+    "covalentRadiusPyykkoPm": 118,
+    "metallicRadiusPm": 121,
+    "vdwRadiusPm": 201,
+    "ionizationEnergyFirstKjMol": 906.4022175768026,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 31,
@@ -338,7 +458,11 @@
     "series": "Poor metals",
     "electronegativityPauling": 1.81,
     "atomicRadiusPm": 130,
-    "covalentRadiusPyykkoPm": 124
+    "covalentRadiusPyykkoPm": 124,
+    "metallicRadiusPm": 125,
+    "vdwRadiusPm": 187,
+    "ionizationEnergyFirstKjMol": 578.844645978038,
+    "electronAffinityKjMol": 41.488692813023306
   },
   {
     "atomicNumber": 32,
@@ -349,7 +473,11 @@
     "series": "Metalloids",
     "electronegativityPauling": 2.01,
     "atomicRadiusPm": 125,
-    "covalentRadiusPyykkoPm": 121
+    "covalentRadiusPyykkoPm": 121,
+    "metallicRadiusPm": 124,
+    "vdwRadiusPm": 211,
+    "ionizationEnergyFirstKjMol": 762.1796095614995,
+    "electronAffinityKjMol": 118.93862673238974
   },
   {
     "atomicNumber": 33,
@@ -360,7 +488,11 @@
     "series": "Metalloids",
     "electronegativityPauling": 2.18,
     "atomicRadiusPm": 115,
-    "covalentRadiusPyykkoPm": 121
+    "covalentRadiusPyykkoPm": 121,
+    "metallicRadiusPm": 121,
+    "vdwRadiusPm": 185,
+    "ionizationEnergyFirstKjMol": 944.4514977556263,
+    "electronAffinityKjMol": 77.57420702714126
   },
   {
     "atomicNumber": 34,
@@ -371,7 +503,11 @@
     "series": "Nonmetals",
     "electronegativityPauling": 2.55,
     "atomicRadiusPm": 115,
-    "covalentRadiusPyykkoPm": 116
+    "covalentRadiusPyykkoPm": 116,
+    "metallicRadiusPm": 117,
+    "vdwRadiusPm": 190,
+    "ionizationEnergyFirstKjMol": 940.9604654687407,
+    "electronAffinityKjMol": 194.96501606160885
   },
   {
     "atomicNumber": 35,
@@ -382,7 +518,11 @@
     "series": "Halogens",
     "electronegativityPauling": 2.96,
     "atomicRadiusPm": 115,
-    "covalentRadiusPyykkoPm": 114
+    "covalentRadiusPyykkoPm": 114,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 185,
+    "ionizationEnergyFirstKjMol": 1139.859381491681,
+    "electronAffinityKjMol": 324.53692460304654
   },
   {
     "atomicNumber": 36,
@@ -393,7 +533,11 @@
     "series": "Noble gases",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 117
+    "covalentRadiusPyykkoPm": 117,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 202,
+    "ionizationEnergyFirstKjMol": 1350.7565862628176,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 37,
@@ -404,7 +548,11 @@
     "series": "Alkali metals",
     "electronegativityPauling": 0.82,
     "atomicRadiusPm": 235,
-    "covalentRadiusPyykkoPm": 210
+    "covalentRadiusPyykkoPm": 210,
+    "metallicRadiusPm": 216,
+    "vdwRadiusPm": 303,
+    "ionizationEnergyFirstKjMol": 403.03159205011093,
+    "electronAffinityKjMol": 46.8841525853588
   },
   {
     "atomicNumber": 38,
@@ -415,7 +563,11 @@
     "series": "Alkaline earth metals",
     "electronegativityPauling": 0.95,
     "atomicRadiusPm": 200,
-    "covalentRadiusPyykkoPm": 185
+    "covalentRadiusPyykkoPm": 185,
+    "metallicRadiusPm": 191,
+    "vdwRadiusPm": 249,
+    "ionizationEnergyFirstKjMol": 549.4711773114776,
+    "electronAffinityKjMol": 4.631295941918881
   },
   {
     "atomicNumber": 39,
@@ -426,7 +578,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.22,
     "atomicRadiusPm": 180,
-    "covalentRadiusPyykkoPm": 163
+    "covalentRadiusPyykkoPm": 163,
+    "metallicRadiusPm": 162,
+    "vdwRadiusPm": 232,
+    "ionizationEnergyFirstKjMol": 599.8743959969704,
+    "electronAffinityKjMol": 29.620996961856175
   },
   {
     "atomicNumber": 40,
@@ -437,7 +593,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.33,
     "atomicRadiusPm": 155,
-    "covalentRadiusPyykkoPm": 154
+    "covalentRadiusPyykkoPm": 154,
+    "metallicRadiusPm": 145,
+    "vdwRadiusPm": 223,
+    "ionizationEnergyFirstKjMol": 640.0958504578862,
+    "electronAffinityKjMol": 41.10275148453007
   },
   {
     "atomicNumber": 41,
@@ -448,7 +608,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.6,
     "atomicRadiusPm": 145,
-    "covalentRadiusPyykkoPm": 147
+    "covalentRadiusPyykkoPm": 147,
+    "metallicRadiusPm": 134,
+    "vdwRadiusPm": 218,
+    "ionizationEnergyFirstKjMol": 652.1298870216339,
+    "electronAffinityKjMol": 88.51622260191735
   },
   {
     "atomicNumber": 42,
@@ -459,7 +623,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.16,
     "atomicRadiusPm": 145,
-    "covalentRadiusPyykkoPm": 138
+    "covalentRadiusPyykkoPm": 138,
+    "metallicRadiusPm": 130,
+    "vdwRadiusPm": 217,
+    "ionizationEnergyFirstKjMol": 684.3154641113276,
+    "electronAffinityKjMol": 72.17102842823589
   },
   {
     "atomicNumber": 43,
@@ -470,7 +638,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.1,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 128
+    "covalentRadiusPyykkoPm": 128,
+    "metallicRadiusPm": 127,
+    "vdwRadiusPm": 216,
+    "ionizationEnergyFirstKjMol": 686.9157438120508,
+    "electronAffinityKjMol": 53.06693266782052
   },
   {
     "atomicNumber": 44,
@@ -481,7 +653,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.2,
     "atomicRadiusPm": 130,
-    "covalentRadiusPyykkoPm": 125
+    "covalentRadiusPyykkoPm": 125,
+    "metallicRadiusPm": 125,
+    "vdwRadiusPm": 213,
+    "ionizationEnergyFirstKjMol": 710.1802870936234,
+    "electronAffinityKjMol": 101.30959872947552
   },
   {
     "atomicNumber": 45,
@@ -492,7 +668,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.28,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 125
+    "covalentRadiusPyykkoPm": 125,
+    "metallicRadiusPm": 125,
+    "vdwRadiusPm": 210,
+    "ionizationEnergyFirstKjMol": 719.6744437745571,
+    "electronAffinityKjMol": 109.70382262420348
   },
   {
     "atomicNumber": 46,
@@ -503,7 +683,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.2,
     "atomicRadiusPm": 140,
-    "covalentRadiusPyykkoPm": 120
+    "covalentRadiusPyykkoPm": 120,
+    "metallicRadiusPm": 128,
+    "vdwRadiusPm": 210,
+    "ionizationEnergyFirstKjMol": 804.3826797735637,
+    "electronAffinityKjMol": 54.22475665330023
   },
   {
     "atomicNumber": 47,
@@ -514,7 +698,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.93,
     "atomicRadiusPm": 160,
-    "covalentRadiusPyykkoPm": 128
+    "covalentRadiusPyykkoPm": 128,
+    "metallicRadiusPm": 134,
+    "vdwRadiusPm": 211,
+    "ionizationEnergyFirstKjMol": 730.9954537339136,
+    "electronAffinityKjMol": 125.62390242454963
   },
   {
     "atomicNumber": 48,
@@ -525,7 +713,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.69,
     "atomicRadiusPm": 155,
-    "covalentRadiusPyykkoPm": 136
+    "covalentRadiusPyykkoPm": 136,
+    "metallicRadiusPm": 138,
+    "vdwRadiusPm": 218,
+    "ionizationEnergyFirstKjMol": 867.771709757268,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 49,
@@ -536,7 +728,11 @@
     "series": "Poor metals",
     "electronegativityPauling": 1.78,
     "atomicRadiusPm": 155,
-    "covalentRadiusPyykkoPm": 142
+    "covalentRadiusPyykkoPm": 142,
+    "metallicRadiusPm": 142,
+    "vdwRadiusPm": 193,
+    "ionizationEnergyFirstKjMol": 558.2984611466412,
+    "electronAffinityKjMol": 28.945599636993002
   },
   {
     "atomicNumber": 50,
@@ -547,7 +743,11 @@
     "series": "Poor metals",
     "electronegativityPauling": 1.96,
     "atomicRadiusPm": 145,
-    "covalentRadiusPyykkoPm": 140
+    "covalentRadiusPyykkoPm": 140,
+    "metallicRadiusPm": 142,
+    "vdwRadiusPm": 217,
+    "ionizationEnergyFirstKjMol": 708.5803673163547,
+    "electronAffinityKjMol": 107.298153838373
   },
   {
     "atomicNumber": 51,
@@ -558,7 +758,11 @@
     "series": "Metalloids",
     "electronegativityPauling": 2.05,
     "atomicRadiusPm": 145,
-    "covalentRadiusPyykkoPm": 140
+    "covalentRadiusPyykkoPm": 140,
+    "metallicRadiusPm": 139,
+    "vdwRadiusPm": 206,
+    "ionizationEnergyFirstKjMol": 830.5832717116486,
+    "electronAffinityKjMol": 100.92365740098228
   },
   {
     "atomicNumber": 52,
@@ -569,7 +773,11 @@
     "series": "Metalloids",
     "electronegativityPauling": 2.1,
     "atomicRadiusPm": 140,
-    "covalentRadiusPyykkoPm": 136
+    "covalentRadiusPyykkoPm": 136,
+    "metallicRadiusPm": 137,
+    "vdwRadiusPm": 206,
+    "ionizationEnergyFirstKjMol": 869.3143172472555,
+    "electronAffinityKjMol": 190.16062543386073
   },
   {
     "atomicNumber": 53,
@@ -580,7 +788,11 @@
     "series": "Halogens",
     "electronegativityPauling": 2.66,
     "atomicRadiusPm": 140,
-    "covalentRadiusPyykkoPm": 133
+    "covalentRadiusPyykkoPm": 133,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 198,
+    "ionizationEnergyFirstKjMol": 1008.390976559094,
+    "electronAffinityKjMol": 295.1521816254275
   },
   {
     "atomicNumber": 54,
@@ -591,7 +803,11 @@
     "series": "Noble gases",
     "electronegativityPauling": 2.6,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 131
+    "covalentRadiusPyykkoPm": 131,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 216,
+    "ionizationEnergyFirstKjMol": 1170.3519979983396,
+    "electronAffinityKjMol": -5.4031785989053605
   },
   {
     "atomicNumber": 55,
@@ -602,7 +818,11 @@
     "series": "Alkali metals",
     "electronegativityPauling": 0.79,
     "atomicRadiusPm": 260,
-    "covalentRadiusPyykkoPm": 232
+    "covalentRadiusPyykkoPm": 232,
+    "metallicRadiusPm": 235,
+    "vdwRadiusPm": 343,
+    "ionizationEnergyFirstKjMol": 375.70478736794263,
+    "electronAffinityKjMol": 45.504991247988215
   },
   {
     "atomicNumber": 56,
@@ -613,7 +833,11 @@
     "series": "Alkaline earth metals",
     "electronegativityPauling": 0.89,
     "atomicRadiusPm": 215,
-    "covalentRadiusPyykkoPm": 196
+    "covalentRadiusPyykkoPm": 196,
+    "metallicRadiusPm": 198,
+    "vdwRadiusPm": 268,
+    "ionizationEnergyFirstKjMol": 502.84918984629763,
+    "electronAffinityKjMol": 13.953708731673094
   },
   {
     "atomicNumber": 57,
@@ -624,7 +848,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.1,
     "atomicRadiusPm": 195,
-    "covalentRadiusPyykkoPm": 180
+    "covalentRadiusPyykkoPm": 180,
+    "metallicRadiusPm": 169,
+    "vdwRadiusPm": 243,
+    "ionizationEnergyFirstKjMol": 538.0890487184877,
+    "electronAffinityKjMol": 45.34810609795571
   },
   {
     "atomicNumber": 58,
@@ -635,7 +863,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.12,
     "atomicRadiusPm": 185,
-    "covalentRadiusPyykkoPm": 163
+    "covalentRadiusPyykkoPm": 163,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 242,
+    "ionizationEnergyFirstKjMol": 534.3936604981649,
+    "electronAffinityKjMol": 62.71546588015151
   },
   {
     "atomicNumber": 59,
@@ -646,7 +878,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.13,
     "atomicRadiusPm": 185,
-    "covalentRadiusPyykkoPm": 176
+    "covalentRadiusPyykkoPm": 176,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 240,
+    "ionizationEnergyFirstKjMol": 527.7940637809305,
+    "electronAffinityKjMol": 92.81888950262424
   },
   {
     "atomicNumber": 60,
@@ -657,7 +893,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.14,
     "atomicRadiusPm": 185,
-    "covalentRadiusPyykkoPm": 174
+    "covalentRadiusPyykkoPm": 174,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 239,
+    "ionizationEnergyFirstKjMol": 533.0814599812878,
+    "electronAffinityKjMol": 184.86589634826197
   },
   {
     "atomicNumber": 61,
@@ -668,7 +908,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": null,
     "atomicRadiusPm": 185,
-    "covalentRadiusPyykkoPm": 173
+    "covalentRadiusPyykkoPm": 173,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 238,
+    "ionizationEnergyFirstKjMol": 538.5685808191405,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 62,
@@ -679,7 +923,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.17,
     "atomicRadiusPm": 185,
-    "covalentRadiusPyykkoPm": 172
+    "covalentRadiusPyykkoPm": 172,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 236,
+    "ionizationEnergyFirstKjMol": 544.5363915816315,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 63,
@@ -690,7 +938,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": null,
     "atomicRadiusPm": 185,
-    "covalentRadiusPyykkoPm": 168
+    "covalentRadiusPyykkoPm": 168,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 235,
+    "ionizationEnergyFirstKjMol": 547.1089799920352,
+    "electronAffinityKjMol": 83.36332695453986
   },
   {
     "atomicNumber": 64,
@@ -701,7 +953,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.2,
     "atomicRadiusPm": 180,
-    "covalentRadiusPyykkoPm": 169
+    "covalentRadiusPyykkoPm": 169,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 234,
+    "ionizationEnergyFirstKjMol": 593.3654954919319,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 65,
@@ -712,7 +968,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": null,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 168
+    "covalentRadiusPyykkoPm": 168,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 233,
+    "ionizationEnergyFirstKjMol": 565.7706905046653,
+    "electronAffinityKjMol": 112.40541192365617
   },
   {
     "atomicNumber": 66,
@@ -723,7 +983,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.22,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 167
+    "covalentRadiusPyykkoPm": 167,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 231,
+    "ionizationEnergyFirstKjMol": 573.0322730855977,
+    "electronAffinityKjMol": 33.962836907405126
   },
   {
     "atomicNumber": 67,
@@ -734,7 +998,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.23,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 166
+    "covalentRadiusPyykkoPm": 166,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 230,
+    "ionizationEnergyFirstKjMol": 580.9864273805113,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 68,
@@ -745,7 +1013,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.24,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 165
+    "covalentRadiusPyykkoPm": 165,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 229,
+    "ionizationEnergyFirstKjMol": 589.3034630095406,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 69,
@@ -756,7 +1028,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": 1.25,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 164
+    "covalentRadiusPyykkoPm": 164,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 227,
+    "ionizationEnergyFirstKjMol": 596.7040809540628,
+    "electronAffinityKjMol": 99.28340675488602
   },
   {
     "atomicNumber": 70,
@@ -767,7 +1043,11 @@
     "series": "Lanthanides",
     "electronegativityPauling": null,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 170
+    "covalentRadiusPyykkoPm": 170,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 226,
+    "ionizationEnergyFirstKjMol": 603.4347047523205,
+    "electronAffinityKjMol": -1.9297066424662004
   },
   {
     "atomicNumber": 71,
@@ -778,7 +1058,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.0,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 162
+    "covalentRadiusPyykkoPm": 162,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 224,
+    "ionizationEnergyFirstKjMol": 523.5169654932363,
+    "electronAffinityKjMol": 32.80501292192541
   },
   {
     "atomicNumber": 72,
@@ -789,7 +1073,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.3,
     "atomicRadiusPm": 155,
-    "covalentRadiusPyykkoPm": 152
+    "covalentRadiusPyykkoPm": 152,
+    "metallicRadiusPm": 144,
+    "vdwRadiusPm": 223,
+    "ionizationEnergyFirstKjMol": 658.5191457148395,
+    "electronAffinityKjMol": 1.3507946497263401
   },
   {
     "atomicNumber": 73,
@@ -800,7 +1088,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.5,
     "atomicRadiusPm": 145,
-    "covalentRadiusPyykkoPm": 146
+    "covalentRadiusPyykkoPm": 146,
+    "metallicRadiusPm": 134,
+    "vdwRadiusPm": 222,
+    "ionizationEnergyFirstKjMol": 728.4228653235098,
+    "electronAffinityKjMol": 31.068276943705825
   },
   {
     "atomicNumber": 74,
@@ -811,7 +1103,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.7,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 137
+    "covalentRadiusPyykkoPm": 137,
+    "metallicRadiusPm": 130,
+    "vdwRadiusPm": 218,
+    "ionizationEnergyFirstKjMol": 758.7635463776736,
+    "electronAffinityKjMol": 78.75711719897303
   },
   {
     "atomicNumber": 75,
@@ -822,7 +1118,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.9,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 131
+    "covalentRadiusPyykkoPm": 131,
+    "metallicRadiusPm": 128,
+    "vdwRadiusPm": 216,
+    "ionizationEnergyFirstKjMol": 755.8197788945915,
+    "electronAffinityKjMol": 14.472799818496501
   },
   {
     "atomicNumber": 76,
@@ -833,7 +1133,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.2,
     "atomicRadiusPm": 130,
-    "covalentRadiusPyykkoPm": 129
+    "covalentRadiusPyykkoPm": 129,
+    "metallicRadiusPm": 126,
+    "vdwRadiusPm": 216,
+    "ionizationEnergyFirstKjMol": 814.1654240828783,
+    "electronAffinityKjMol": 106.13386533564103
   },
   {
     "atomicNumber": 77,
@@ -844,7 +1148,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.2,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 122
+    "covalentRadiusPyykkoPm": 122,
+    "metallicRadiusPm": 127,
+    "vdwRadiusPm": 213,
+    "ionizationEnergyFirstKjMol": 865.1859028563633,
+    "electronAffinityKjMol": 150.88376237443222
   },
   {
     "atomicNumber": 78,
@@ -855,7 +1163,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.2,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 123
+    "covalentRadiusPyykkoPm": 123,
+    "metallicRadiusPm": 130,
+    "vdwRadiusPm": 213,
+    "ionizationEnergyFirstKjMol": 864.3956879862735,
+    "electronAffinityKjMol": 205.32078675840373
   },
   {
     "atomicNumber": 79,
@@ -866,7 +1178,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 2.4,
     "atomicRadiusPm": 135,
-    "covalentRadiusPyykkoPm": 124
+    "covalentRadiusPyykkoPm": 124,
+    "metallicRadiusPm": 134,
+    "vdwRadiusPm": 214,
+    "ionizationEnergyFirstKjMol": 890.1306417115313,
+    "electronAffinityKjMol": 222.7489322998372
   },
   {
     "atomicNumber": 80,
@@ -877,7 +1193,11 @@
     "series": "Transition metals",
     "electronegativityPauling": 1.9,
     "atomicRadiusPm": 150,
-    "covalentRadiusPyykkoPm": 133
+    "covalentRadiusPyykkoPm": 133,
+    "metallicRadiusPm": 139,
+    "vdwRadiusPm": 223,
+    "ionizationEnergyFirstKjMol": 1007.0660399783768,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 81,
@@ -888,7 +1208,11 @@
     "series": "Poor metals",
     "electronegativityPauling": 1.8,
     "atomicRadiusPm": 190,
-    "covalentRadiusPyykkoPm": 144
+    "covalentRadiusPyykkoPm": 144,
+    "metallicRadiusPm": 144,
+    "vdwRadiusPm": 196,
+    "ionizationEnergyFirstKjMol": 589.3601288450966,
+    "electronAffinityKjMol": 36.374970210487874
   },
   {
     "atomicNumber": 82,
@@ -899,7 +1223,11 @@
     "series": "Poor metals",
     "electronegativityPauling": 1.8,
     "atomicRadiusPm": 180,
-    "covalentRadiusPyykkoPm": 144
+    "covalentRadiusPyykkoPm": 144,
+    "metallicRadiusPm": 150,
+    "vdwRadiusPm": 202,
+    "ionizationEnergyFirstKjMol": 715.6008234037778,
+    "electronAffinityKjMol": 34.420482275319124
   },
   {
     "atomicNumber": 83,
@@ -910,7 +1238,11 @@
     "series": "Poor metals",
     "electronegativityPauling": 1.9,
     "atomicRadiusPm": 160,
-    "covalentRadiusPyykkoPm": 151
+    "covalentRadiusPyykkoPm": 151,
+    "metallicRadiusPm": 151,
+    "vdwRadiusPm": 207,
+    "ionizationEnergyFirstKjMol": 702.9454309496891,
+    "electronAffinityKjMol": 90.92411055038667
   },
   {
     "atomicNumber": 84,
@@ -921,7 +1253,11 @@
     "series": "Metalloids",
     "electronegativityPauling": 2.0,
     "atomicRadiusPm": 190,
-    "covalentRadiusPyykkoPm": 145
+    "covalentRadiusPyykkoPm": 145,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 197,
+    "ionizationEnergyFirstKjMol": 812.2202797872724,
+    "electronAffinityKjMol": 183.32213103428901
   },
   {
     "atomicNumber": 85,
@@ -932,7 +1268,11 @@
     "series": "Halogens",
     "electronegativityPauling": 2.2,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 147
+    "covalentRadiusPyykkoPm": 147,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 202,
+    "ionizationEnergyFirstKjMol": 899.0030469122623,
+    "electronAffinityKjMol": 270.158929945268
   },
   {
     "atomicNumber": 86,
@@ -943,7 +1283,11 @@
     "series": "Noble gases",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 142
+    "covalentRadiusPyykkoPm": 142,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 220,
+    "ionizationEnergyFirstKjMol": 1037.0725923273976,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 87,
@@ -954,7 +1298,11 @@
     "series": "Alkali metals",
     "electronegativityPauling": 0.7,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 223
+    "covalentRadiusPyykkoPm": 223,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 348,
+    "ionizationEnergyFirstKjMol": 392.95977768575494,
+    "electronAffinityKjMol": 46.89187141192867
   },
   {
     "atomicNumber": 88,
@@ -965,7 +1313,11 @@
     "series": "Alkaline earth metals",
     "electronegativityPauling": 0.9,
     "atomicRadiusPm": 215,
-    "covalentRadiusPyykkoPm": 201
+    "covalentRadiusPyykkoPm": 201,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 283,
+    "ionizationEnergyFirstKjMol": 509.29048307911734,
+    "electronAffinityKjMol": 9.648533212331003
   },
   {
     "atomicNumber": 89,
@@ -976,7 +1328,11 @@
     "series": "Actinides",
     "electronegativityPauling": 1.1,
     "atomicRadiusPm": 195,
-    "covalentRadiusPyykkoPm": 186
+    "covalentRadiusPyykkoPm": 186,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 247,
+    "ionizationEnergyFirstKjMol": 519.1137608764568,
+    "electronAffinityKjMol": 33.7698662431585
   },
   {
     "atomicNumber": 90,
@@ -987,7 +1343,11 @@
     "series": "Actinides",
     "electronegativityPauling": 1.3,
     "atomicRadiusPm": 180,
-    "covalentRadiusPyykkoPm": 175
+    "covalentRadiusPyykkoPm": 175,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 245,
+    "ionizationEnergyFirstKjMol": 608.5040441020793,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 91,
@@ -998,7 +1358,11 @@
     "series": "Actinides",
     "electronegativityPauling": 1.5,
     "atomicRadiusPm": 180,
-    "covalentRadiusPyykkoPm": 169
+    "covalentRadiusPyykkoPm": 169,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 243,
+    "ionizationEnergyFirstKjMol": 568.298606206296,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 92,
@@ -1009,7 +1373,11 @@
     "series": "Actinides",
     "electronegativityPauling": 1.7,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 170
+    "covalentRadiusPyykkoPm": 170,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 241,
+    "ionizationEnergyFirstKjMol": 597.6349714383883,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 93,
@@ -1020,7 +1388,11 @@
     "series": "Actinides",
     "electronegativityPauling": 1.3,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 171
+    "covalentRadiusPyykkoPm": 171,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 239,
+    "ionizationEnergyFirstKjMol": 604.5327078318838,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 94,
@@ -1031,7 +1403,11 @@
     "series": "Actinides",
     "electronegativityPauling": 1.3,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 172
+    "covalentRadiusPyykkoPm": 172,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 243,
+    "ionizationEnergyFirstKjMol": 581.3974548953565,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 95,
@@ -1042,7 +1418,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": 175,
-    "covalentRadiusPyykkoPm": 166
+    "covalentRadiusPyykkoPm": 166,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 244,
+    "ionizationEnergyFirstKjMol": 576.3850418915506,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 96,
@@ -1053,7 +1433,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 166
+    "covalentRadiusPyykkoPm": 166,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 245,
+    "ionizationEnergyFirstKjMol": 578.1633630479154,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 97,
@@ -1064,7 +1448,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 168
+    "covalentRadiusPyykkoPm": 168,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 244,
+    "ionizationEnergyFirstKjMol": 598.001615700457,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 98,
@@ -1075,7 +1463,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 168
+    "covalentRadiusPyykkoPm": 168,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 245,
+    "ionizationEnergyFirstKjMol": 606.1090851881145,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 99,
@@ -1086,7 +1478,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 165
+    "covalentRadiusPyykkoPm": 165,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 245,
+    "ionizationEnergyFirstKjMol": 614.4571890940875,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 100,
@@ -1097,7 +1493,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 167
+    "covalentRadiusPyykkoPm": 167,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 245,
+    "ionizationEnergyFirstKjMol": 627.1546588015151,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 101,
@@ -1108,7 +1508,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 173
+    "covalentRadiusPyykkoPm": 173,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 246,
+    "ionizationEnergyFirstKjMol": 634.87348537138,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 102,
@@ -1119,7 +1523,11 @@
     "series": "Actinides",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 176
+    "covalentRadiusPyykkoPm": 176,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 246,
+    "ionizationEnergyFirstKjMol": 639.3320725687981,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 103,
@@ -1130,7 +1538,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 161
+    "covalentRadiusPyykkoPm": 161,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": 246,
+    "ionizationEnergyFirstKjMol": 478.5672473316177,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 104,
@@ -1141,7 +1553,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 157
+    "covalentRadiusPyykkoPm": 157,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": 580.8416993823263,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 105,
@@ -1152,7 +1568,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 149
+    "covalentRadiusPyykkoPm": 149,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": 656.100258438508,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 106,
@@ -1163,7 +1583,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 143
+    "covalentRadiusPyykkoPm": 143,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": 752.5855905618181,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 107,
@@ -1174,7 +1598,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 141
+    "covalentRadiusPyykkoPm": 141,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": 742.9370573494872,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 108,
@@ -1185,7 +1613,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 134
+    "covalentRadiusPyykkoPm": 134,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": 733.2885241371561,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 109,
@@ -1196,7 +1628,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 129
+    "covalentRadiusPyykkoPm": 129,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 110,
@@ -1207,7 +1643,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 128
+    "covalentRadiusPyykkoPm": 128,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 111,
@@ -1218,7 +1658,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 121
+    "covalentRadiusPyykkoPm": 121,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 112,
@@ -1229,7 +1673,11 @@
     "series": "Transition metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 122
+    "covalentRadiusPyykkoPm": 122,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 113,
@@ -1240,7 +1688,11 @@
     "series": "Poor metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 136
+    "covalentRadiusPyykkoPm": 136,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 114,
@@ -1251,7 +1703,11 @@
     "series": "Poor metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 143
+    "covalentRadiusPyykkoPm": 143,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 115,
@@ -1262,7 +1718,11 @@
     "series": "Poor metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 162
+    "covalentRadiusPyykkoPm": 162,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 116,
@@ -1273,7 +1733,11 @@
     "series": "Poor metals",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 175
+    "covalentRadiusPyykkoPm": 175,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 117,
@@ -1284,7 +1748,11 @@
     "series": "Halogens",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 165
+    "covalentRadiusPyykkoPm": 165,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": null
   },
   {
     "atomicNumber": 118,
@@ -1295,6 +1763,10 @@
     "series": "Noble gases",
     "electronegativityPauling": null,
     "atomicRadiusPm": null,
-    "covalentRadiusPyykkoPm": 157
+    "covalentRadiusPyykkoPm": 157,
+    "metallicRadiusPm": null,
+    "vdwRadiusPm": null,
+    "ionizationEnergyFirstKjMol": null,
+    "electronAffinityKjMol": 5.4031785989053605
   }
 ]

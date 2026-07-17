@@ -15,6 +15,10 @@ FIELD_UNITS: dict[str, str | None] = {
     "electronegativityPauling": None,
     "atomicRadiusPm": "pm",
     "covalentRadiusPyykkoPm": "pm",
+    "metallicRadiusPm": "pm",
+    "vdwRadiusPm": "pm",
+    "ionizationEnergyFirstKjMol": "kJ/mol",
+    "electronAffinityKjMol": "kJ/mol",
 }
 
 
@@ -31,6 +35,10 @@ class ElementRecord:
     electronegativityPauling: float | None
     atomicRadiusPm: int | None
     covalentRadiusPyykkoPm: int | None
+    metallicRadiusPm: int | None
+    vdwRadiusPm: int | None
+    ionizationEnergyFirstKjMol: float | None
+    electronAffinityKjMol: float | None
 
     def __post_init__(self) -> None:
         if not 1 <= self.atomicNumber <= 118:
@@ -48,10 +56,22 @@ class ElementRecord:
             raise ValueError(
                 f"electronegativityPauling must be positive for Z={self.atomicNumber}"
             )
-        for name in ("atomicRadiusPm", "covalentRadiusPyykkoPm"):
+        for name in (
+            "atomicRadiusPm",
+            "covalentRadiusPyykkoPm",
+            "metallicRadiusPm",
+            "vdwRadiusPm",
+        ):
             value = getattr(self, name)
             if value is not None and value <= 0:
                 raise ValueError(f"{name} must be positive for Z={self.atomicNumber}")
+        if (
+            self.ionizationEnergyFirstKjMol is not None
+            and self.ionizationEnergyFirstKjMol <= 0
+        ):
+            raise ValueError(
+                f"ionizationEnergyFirstKjMol must be positive for Z={self.atomicNumber}"
+            )
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

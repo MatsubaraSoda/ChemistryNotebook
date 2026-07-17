@@ -29,6 +29,34 @@ export function formatCovalentRadiusPyykkoPm(
   return String(value)
 }
 
+export function formatMetallicRadiusPm(
+  value: number | null | undefined,
+): string {
+  if (value === null || value === undefined) return MISSING
+  return String(value)
+}
+
+export function formatVdwRadiusPm(
+  value: number | null | undefined,
+): string {
+  if (value === null || value === undefined) return MISSING
+  return String(value)
+}
+
+export function formatIonizationEnergyFirstKjMol(
+  value: number | null | undefined,
+): string {
+  if (value === null || value === undefined) return MISSING
+  return String(Math.round(value))
+}
+
+export function formatElectronAffinityKjMol(
+  value: number | null | undefined,
+): string {
+  if (value === null || value === undefined) return MISSING
+  return String(Math.round(value))
+}
+
 export function formatSymbol(value: string | null | undefined): string {
   if (value === null || value === undefined || value === '') return MISSING
   return value

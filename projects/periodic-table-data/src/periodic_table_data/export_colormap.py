@@ -49,7 +49,7 @@ def export_colormap(
     const_name = f"{_safe_ident(name)}_RGB"
     body = ",\n".join(f"  [{r}, {g}, {b}]" for r, g, b in rows)
     text = (
-        f"/** matplotlib sequential colormap: {name} (N={n}), sRGB 0–255 */\n"
+        f"/** matplotlib colormap: {name} (N={n}), sRGB 0–255 */\n"
         f"export const COLORMAP_NAME = {name!r} as const\n"
         f"export const {const_name}: readonly (readonly [number, number, number])[] = [\n"
         f"{body},\n"

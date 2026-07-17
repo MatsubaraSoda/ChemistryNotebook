@@ -23,8 +23,13 @@ const chineseDisplay = injectedChineseDisplay
 const EXCLUSIVE_BUTTONS: { id: PropertyMode; label: string }[] = [
   { id: 'atomicMass', label: '标准原子量' },
   { id: 'electronegativityPauling', label: '电负性' },
+  { id: 'series', label: '元素分类' },
   { id: 'atomicRadiusPm', label: '原子半径 (pm)' },
   { id: 'covalentRadiusPyykkoPm', label: '共价半径 (pm)' },
+  { id: 'metallicRadiusPm', label: '金属半径 (pm)' },
+  { id: 'vdwRadiusPm', label: '范德华半径 (pm)' },
+  { id: 'ionizationEnergyFirstKjMol', label: '第一电离能 (kJ/mol)' },
+  { id: 'electronAffinityKjMol', label: '电子亲和能 (kJ/mol)' },
 ]
 
 function selectMode(id: PropertyMode): void {
@@ -60,7 +65,7 @@ function chineseDisplayLabel(mode: ChineseDisplayMode): string {
 
 <template>
   <section
-    class="m-0 grid w-full grid-cols-5 gap-0 border-b border-solid border-neutral-900 p-0"
+    class="m-0 grid w-full grid-cols-10 gap-0 border-b border-solid border-neutral-900 p-0"
     aria-label="顶部显示控制栏"
   >
     <div class="contents" role="radiogroup" aria-label="第三区属性（互斥）">
