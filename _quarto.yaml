@@ -73,6 +73,8 @@ website:
               text: "第 20 章 电化学"
             - href: "中心科学/第21章核化学.ipynb"
               text: "第 21 章 核化学"
+            - href: "中心科学/第22章非金属化学.ipynb"
+              text: "第 22 章 非金属化学"
             - section: "小结"
               expanded: true
               contents:
